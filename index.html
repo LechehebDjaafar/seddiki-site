@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>وكالة صديقي للسياحة والأسفار</title>
+  <meta name="description" content="وكالة صديقي للسياحة والأسفار في ورقلة. عمرة 15 أكتوبر 2026 بفندق الديوان، تذاكر طيران ورحلات.">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Social preview: replace with the full URL of your image once the site is online -->
+  <meta property="og:title" content="وكالة صديقي للسياحة والأسفار">
+  <meta property="og:image" content="images/omra-poster.jpg">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Applies saved theme and language before first paint, so there is no flash -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      try {
+        var t = localStorage.getItem('sd-theme') || 'light';
+        var l = localStorage.getItem('sd-lang') || 'ar';
+        d.setAttribute('data-theme', t);
+        d.lang = l;
+        d.dir = l === 'ar' ? 'rtl' : 'ltr';
+      } catch (e) {}
+      d.classList.add('js');
+    })();
+  </script>
+</head>
+<body>
+
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path d="M10.5 13.5 3 11l1.5-2 8 1.2L17 5.5a2 2 0 0 1 3 2.6l-4.2 5.4.8 8-2 1.5-2.5-7.5z"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6 6 6M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18V6M3 14h18v4M21 14v-2a3 3 0 0 0-3-3h-7v5"/><circle cx="7" cy="11" r="1.6"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3.5 12.5V4.5h8l9 9-8 8z"/><circle cx="8" cy="9" r="1.2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3.2"/><path d="M3 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5M16 5.6a3.2 3.2 0 0 1 0 5.8M18 14.8c1.8.7 3 2.4 3 5.2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 4.6 3.1 8.2 7.5 9.5 4.4-1.3 7.5-4.9 7.5-9.5V6z"/><path d="m8.8 12 2.3 2.3 4.2-4.6"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.2 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.8"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2.5"/><path d="M15.5 8.5v-2a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.4 7.5L3.5 20.5l1.5-4.4A8.5 8.5 0 1 1 20.5 11.5z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l1.6 4.5-2.3 1.4a11 11 0 0 0 5.8 5.8l1.4-2.3L20 15v4a1.5 1.5 0 0 1-1.6 1.5C10.6 20 4 13.4 3.5 5.6A1.5 1.5 0 0 1 5 4z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7.5 8 6 8-6"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v8.5a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.7"/><path d="m4 17 5-4.5 4 3.5 3-2.5 4 3.5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main" data-i18n="skip">انتقل إلى المحتوى</a>
+
+<!-- ============ Header ============ -->
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="وكالة صديقي للسياحة والأسفار">
+  <span class="brand-mark">
+    <svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg>
+    <img class="brand-logo" src="images/logo.png" alt="" width="52" height="61">
+  </span>
+  <span class="brand-name"><span data-i18n="brand.name">وكالة صديقي</span><span class="brand-sub">Seddiki Tourism Et Voyages</span></span>
+</a>
+
+    <nav class="tabs" aria-label="Main">
+      <a href="#omra" data-i18n="nav.omra">عمرة 15 أكتوبر</a>
+      <a href="#services" data-i18n="nav.services">الخدمات</a>
+      <a href="#gallery" data-i18n="nav.gallery">الصور</a>
+      <a href="#agency" data-i18n="nav.agency">الوكالة</a>
+      <a href="#contact" data-i18n="nav.contact">تواصل معنا</a>
+    </nav>
+
+    <div class="tools">
+      <div class="lang" role="group" data-i18n-aria="lang.label" aria-label="اللغة">
+        <button type="button" data-lang="ar" lang="ar">عربي</button>
+        <button type="button" data-lang="fr" lang="fr">FR</button>
+        <button type="button" data-lang="en" lang="en">EN</button>
+      </div>
+      <button class="icon-btn theme-btn" id="themeBtn" type="button" data-i18n-aria="theme.toggle" aria-label="تبديل الوضع">
+        <svg class="icon i-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="icon i-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+      <a class="btn btn-solid call-btn" href="tel:+213660989838"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="btn.call">اتصل الآن</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ Hero ============ -->
+  <div class="wrap hero">
+    <div class="hero-text">
+      <span class="pill reveal"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span data-i18n="hero.badge">الأماكن الأخيرة لعمرة 15 أكتوبر</span></span>
+      <h1 class="reveal" style="--d:.08s" data-i18n="hero.title">من ورقلة إلى مكة المكرمة، نرافقكم خطوة بخطوة</h1>
+      <p class="lead reveal" style="--d:.16s" data-i18n="hero.lead">عمرة تجمع بين الراحة والتنظيم والقرب من الحرم. من لحظة السفر حتى الوصول، فريق الوكالة معكم.</p>
+    </div>
+
+    <div class="capsule reveal" style="--d:.24s" role="group" data-i18n-aria="cap.aria" aria-label="ملخص عرض العمرة">
+      <div class="seg"><span class="seg-label" data-i18n="cap.dest">الوجهة</span><span class="seg-value" data-i18n="cap.destv">مكة المكرمة</span></div>
+      <div class="seg"><span class="seg-label" data-i18n="cap.date">الانطلاق</span><span class="seg-value" data-i18n="cap.datev">15 أكتوبر 2026</span></div>
+      <div class="seg"><span class="seg-label" data-i18n="cap.stay">الإقامة</span><span class="seg-value" data-i18n="cap.stayv">فندق الديوان، أجياد السد</span></div>
+      <a class="go" href="#contact" data-i18n-aria="cap.go" aria-label="احجز مكانك">
+        <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+        <span class="go-label" data-i18n="cap.go">احجز مكانك</span>
+      </a>
+    </div>
+
+    <!-- Flight route: Ouargla (west) to Makkah (east). Kept left-to-right in every language, like a map. -->
+    <div class="route reveal" style="--d:.32s" dir="ltr">
+      <svg viewBox="0 0 640 170" role="presentation" aria-hidden="true" id="routeSvg">
+        <path id="routePath" class="route-line" d="M30 132 C 170 8, 440 8, 610 118"/>
+        <circle class="route-dot" cx="30" cy="132" r="6"/>
+        <circle class="route-pulse" cx="610" cy="118" r="6"/>
+        <circle class="route-dot dest" cx="610" cy="118" r="6"/>
+        <g class="route-plane">
+          <path d="M12 0 L-2 -3.2 L-6 -11 L-9 -11 L-7 -2.6 L-12 -1.8 L-13.5 -4.5 L-16 -4.5 L-14.5 0 L-16 4.5 L-13.5 4.5 L-12 1.8 L-7 2.6 L-9 11 L-6 11 L-2 3.2 Z"/>
+          <animateMotion dur="9s" repeatCount="indefinite" rotate="auto" keyPoints="0;1" keyTimes="0;1" calcMode="spline" keySplines="0.45 0.05 0.35 1"><mpath href="#routePath"/></animateMotion>
+        </g>
+      </svg>
+      <div class="route-labels"><span data-i18n="route.from">ورقلة</span><span data-i18n="route.to">مكة المكرمة</span></div>
+    </div>
+
+    <div class="trust reveal" style="--d:.4s">
+      <span><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg><span data-i18n="trust.1">شعار IATA على واجهة الوكالة</span></span>
+      <span><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg><span data-i18n="trust.2">6 شركات طيران</span></span>
+      <span><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="trust.3">مكتب في حي الشرفة، ورقلة</span></span>
+    </div>
+  </div>
+
+  <!-- ============ Offer ============ -->
+  <section id="omra">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 data-i18n="omra.title">عمرة 15 أكتوبر 2026</h2>
+        <p class="muted" data-i18n="omra.sub">سعر تنافسي وعدد أماكن محدود. تواصلوا معنا للحجز والاستفسار.</p>
+      </div>
+      <div class="offer">
+        <!-- Poster image: images/omra-poster.png -->
+        <figure class="ph poster reveal" id="poster">
+          <img src="images/omra-poster.png" alt="" data-i18n-alt="omra.posteralt" width="900" height="900" data-lightbox>
+        </figure>
+
+        <div class="offer-side">
+          <div class="card reveal" style="--d:.08s">
+            <h3 data-i18n="omra.details">تفاصيل الرحلة</h3>
+            <ul class="facts">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-bed"/></svg><div><span class="fact-k" data-i18n="omra.stay">الإقامة</span><span class="fact-v" data-i18n="omra.stayv">فندق الديوان، شارع أجياد السد</span></div></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-cal"/></svg><div><span class="fact-k" data-i18n="omra.date">الانطلاق</span><span class="fact-v" data-i18n="omra.datev">15 أكتوبر 2026</span></div></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-tag"/></svg><div><span class="fact-k" data-i18n="omra.price">السعر</span><span class="fact-v" data-i18n="omra.pricev">سعر تنافسي، اتصلوا لمعرفة التفاصيل</span></div></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg><div><span class="fact-k" data-i18n="omra.seats">الأماكن</span><span class="fact-v" data-i18n="omra.seatsv">الأماكن الأخيرة متاحة</span></div></li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-solid" href="#contact" data-i18n="btn.book">احجز مكانك</a>
+              <a class="btn btn-ghost wa-link" href="https://wa.me/213660989838" target="_blank" rel="noopener" data-i18n="btn.wa">واتساب</a>
+            </div>
+          </div>
+
+          <div class="card count reveal" style="--d:.16s">
+            <div>
+              <h3 data-i18n="count.title">المتبقي على 15 أكتوبر</h3>
+              <p class="count-note" data-i18n="count.note">الأماكن تُحجز بحسب الأسبقية.</p>
+            </div>
+            <div id="countLive" class="count-grid">
+              <div class="unit"><b id="cD">--</b><span data-i18n="count.d">يوم</span></div>
+              <div class="unit"><b id="cH">--</b><span data-i18n="count.h">ساعة</span></div>
+              <div class="unit"><b id="cM">--</b><span data-i18n="count.m">دقيقة</span></div>
+              <div class="unit"><b id="cS">--</b><span data-i18n="count.s">ثانية</span></div>
+            </div>
+            <p id="countEnded" class="count-ended" hidden data-i18n="count.ended">انطلق فوج 15 أكتوبر. اسألونا عن الرحلة القادمة.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Services ============ -->
+  <section id="services">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 data-i18n="svc.title">خدماتنا</h2>
+        <p class="muted" data-i18n="svc.sub">كل ما يخص سفركم في مكان واحد داخل ورقلة.</p>
+      </div>
+      <div class="grid3">
+        <article class="card tile reveal"><svg class="icon" aria-hidden="true"><use href="#i-moon"/></svg><h3 data-i18n="svc.1.t">العمرة</h3><p data-i18n="svc.1.p"></p></article>
+        <article class="card tile reveal" style="--d:.08s"><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg><h3 data-i18n="svc.2.t">تذاكر الطيران</h3><p data-i18n="svc.2.p"></p></article>
+        <article class="card tile reveal" style="--d:.16s"><svg class="icon" aria-hidden="true"><use href="#i-route"/></svg><h3 data-i18n="svc.3.t">السياحة والأسفار</h3><p data-i18n="svc.3.p"></p></article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head reveal"><h2 data-i18n="why.title">لماذا تسافرون معنا</h2></div>
+      <div class="grid4">
+        <article class="card tile reveal"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg><h3 data-i18n="why.1.t"></h3><p data-i18n="why.1.p"></p></article>
+        <article class="card tile reveal" style="--d:.07s"><svg class="icon" aria-hidden="true"><use href="#i-route"/></svg><h3 data-i18n="why.2.t"></h3><p data-i18n="why.2.p"></p></article>
+        <article class="card tile reveal" style="--d:.14s"><svg class="icon" aria-hidden="true"><use href="#i-bed"/></svg><h3 data-i18n="why.3.t"></h3><p data-i18n="why.3.p"></p></article>
+        <article class="card tile reveal" style="--d:.21s"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg><h3 data-i18n="why.4.t"></h3><p data-i18n="why.4.p"></p></article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 data-i18n="air.title">شركات الطيران التي نحجز عليها</h2>
+        <p class="muted" data-i18n="air.sub">كما تظهر على واجهة الوكالة.</p>
+      </div>
+      <div class="chips reveal">
+        <span class="chip" data-i18n="air.tk">الخطوط التركية</span>
+        <span class="chip" data-i18n="air.tn">الخطوط التونسية</span>
+        <span class="chip" data-i18n="air.dz">الجوية الجزائرية</span>
+        <span class="chip" data-i18n="air.qa">القطرية</span>
+        <span class="chip" data-i18n="air.ae">الإماراتية</span>
+        <span class="chip" data-i18n="air.sa">السعودية</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Gallery ============ -->
+  <section id="gallery">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 data-i18n="gal.title">لحظات من رحلاتنا</h2>
+        <p class="muted" data-i18n="gal.sub">صور حقيقية من رحلات العمرة مع الوكالة.</p>
+      </div>
+      <!-- Change each src below to your real photo path. gallery-1 is displayed larger. -->
+      <div class="gallery">
+        <figure class="ph g-item big reveal"><img src="images/gallery-1.png" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+        <figure class="ph g-item reveal" style="--d:.05s"><img src="images/gallery-2.png" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+        <figure class="ph g-item reveal" style="--d:.1s"><img src="images/gallery-3.jpg" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+        <figure class="ph g-item reveal" style="--d:.05s"><img src="images/gallery-4.jpg" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+        <figure class="ph g-item reveal" style="--d:.1s"><img src="images/gallery-5.jpg" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+        <figure class="ph g-item reveal"><img src="images/gallery-6.jpg" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+        <figure class="ph g-item reveal" style="--d:.05s"><img src="images/gallery-7.jpg" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+        <figure class="ph g-item reveal" style="--d:.1s"><img src="images/gallery-8.jpg" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+        <figure class="ph g-item reveal" style="--d:.15s"><img src="images/gallery-9.jpg" alt="" data-i18n-alt="gal.alt" loading="lazy" data-lightbox></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Agency ============ -->
+  <section id="agency">
+    <div class="wrap">
+      <div class="sec-head reveal"><h2 data-i18n="ag.title">الوكالة في ورقلة</h2></div>
+      <figure class="ph storefront reveal">
+        <img src="images/storefront.jpg" alt="" data-i18n-alt="ag.alt" width="1400" height="483" loading="lazy" data-lightbox>
+      </figure>
+      <div class="agency-row">
+        <div class="card reveal">
+          <div class="rating"><b class="num">5.0</b><span class="muted" data-i18n="ag.rating">على خرائط جوجل، من مراجعتين</span></div>
+        </div>
+        <div class="card reveal" style="--d:.08s">
+          <h3 data-i18n="ag.addr.t">حي الشرفة، ورقلة</h3>
+          <p class="muted" data-i18n="ag.addr.p">زورونا في المكتب أو اتصلوا بنا قبل الحضور.</p>
+        </div>
+        <a class="btn btn-ghost directions reveal" style="--d:.16s" href="https://www.google.com/maps/search/?api=1&amp;query=%D9%88%D9%83%D8%A7%D9%84%D8%A9%20%D8%B5%D8%AF%D9%8A%D9%82%D9%8A%20%D9%84%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9%20%D9%88%D8%A7%D9%84%D8%A3%D8%B3%D9%81%D8%A7%D8%B1%20%D9%88%D8%B1%D9%82%D9%84%D8%A9" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="btn.directions">الاتجاهات على الخرائط</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Community ============ -->
+  <section>
+    <div class="wrap">
+      <div class="card community reveal">
+        <div class="community-text">
+          <h3 data-i18n="com.title">حضور في المجتمع</h3>
+          <p class="muted" data-i18n="com.p">في 12 سبتمبر ساهمت الوكالة في حفل تكريم الفائزين والمشاركين في مسابقة السيرة النبوية ﷺ.</p>
+        </div>
+        <!-- Ceremony photos: images/event-1.jpg to event-3.jpg -->
+        <div class="community-photos">
+          <figure class="ph"><img src="images/event-1.png" alt="" data-i18n-alt="com.alt" loading="lazy" data-lightbox></figure>
+          <figure class="ph"><img src="images/event-2.jpg" alt="" data-i18n-alt="com.alt" loading="lazy" data-lightbox></figure>
+          <figure class="ph"><img src="images/event-3.jpg" alt="" data-i18n-alt="com.alt" loading="lazy" data-lightbox></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Reviews ============ -->
+  <section>
+    <div class="wrap">
+      <div class="sec-head reveal"><h2 data-i18n="rev.title">ما يقوله من سافروا معنا</h2></div>
+      <div class="quotes">
+        <figure class="card quote reveal">
+          <q lang="ar" dir="rtl">اللهم صلي على الحبيب</q>
+          <small data-i18n="rev.1.src">مراجعة على خرائط جوجل، 5 نجوم</small>
+        </figure>
+        <figure class="card quote reveal" style="--d:.08s">
+          <q lang="ar" dir="rtl">ربي يوفقكم ويبارك فيكم يارب</q>
+          <small data-i18n="rev.2.src">تعليق على صفحة الوكالة في فيسبوك</small>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Contact ============ -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2 data-i18n="ct.title">احجزوا مكانكم</h2>
+        <p class="muted" data-i18n="ct.sub">اتصلوا بنا أو راسلونا على واتساب.</p>
+      </div>
+      <div class="contact">
+        <div class="card rows reveal">
+          <div class="row">
+            <div class="row-main"><span class="row-k" data-i18n="ct.phone">الهاتف</span><a class="row-v num" id="ctPhone" href="tel:+213660989838">0660 98 98 38</a></div>
+            <button class="copy" type="button" data-copy="0660989838" data-target="ctPhone"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg><span class="copy-t" data-i18n="btn.copy">نسخ</span></button>
+          </div>
+          <div class="row">
+            <div class="row-main"><span class="row-k" data-i18n="ct.email">البريد الإلكتروني</span><a class="row-v sm num" id="ctMail" href="mailto:tourismseddiki@gmail.com">tourismseddiki@gmail.com</a></div>
+            <button class="copy" type="button" data-copy="tourismseddiki@gmail.com" data-target="ctMail"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg><span class="copy-t" data-i18n="btn.copy">نسخ</span></button>
+          </div>
+          <div class="row">
+            <div class="row-main"><span class="row-k" data-i18n="ct.addr.k">العنوان</span><span class="row-v sm" data-i18n="ct.addr.v">حي الشرفة، ورقلة، الجزائر</span></div>
+          </div>
+        </div>
+
+        <div class="card wa-card reveal" style="--d:.1s">
+          <h3 data-i18n="ct.wa.t">راسلونا على واتساب</h3>
+          <p class="muted" data-i18n="ct.wa.p"></p>
+          <a class="btn btn-solid wa-link" href="https://wa.me/213660989838" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><span data-i18n="btn.waopen">فتح واتساب</span></a>
+          <a class="btn btn-ghost" href="tel:+213660989838"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="btn.call">اتصل الآن</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <span><strong data-i18n="footer.name">وكالة صديقي للسياحة والأسفار</strong> · Seddiki Tourism Et Voyages</span>
+    <span data-i18n="footer.tag">نرافقكم في السفر ونشارككم أجمل المحطات</span>
+    <span id="rights"></span>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<a class="fab wa-link" href="https://wa.me/213660989838" target="_blank" rel="noopener" data-i18n-aria="btn.waopen" aria-label="واتساب">
+  <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>
+</a>
+
+<!-- Mobile bottom navigation -->
+<nav class="dock" aria-label="Mobile">
+  <a href="#top"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span data-i18n="dock.home">الرئيسية</span></a>
+  <a href="#omra"><svg class="icon" aria-hidden="true"><use href="#i-moon"/></svg><span data-i18n="dock.omra">عمرة</span></a>
+  <a href="#gallery"><svg class="icon" aria-hidden="true"><use href="#i-image"/></svg><span data-i18n="dock.photos">الصور</span></a>
+  <a href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="dock.contact">تواصل</span></a>
+</nav>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" hidden>
+  <button class="lb-btn lb-close" type="button" id="lbClose" data-i18n-aria="lb.close" aria-label="إغلاق"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+  <button class="lb-btn lb-left" type="button" id="lbLeft" data-i18n-aria="lb.left" aria-label="يسار"><svg class="icon flip" aria-hidden="true"><use href="#i-chev"/></svg></button>
+  <img id="lbImg" alt="">
+  <button class="lb-btn lb-right" type="button" id="lbRight" data-i18n-aria="lb.right" aria-label="يمين"><svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></button>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
