@@ -286,6 +286,7 @@ a.row-v:hover { text-decoration: underline; text-underline-offset: 4px; }
 .site-footer { background: var(--white); border-top: 1px solid var(--bebe); margin-top: 28px; }
 .foot { display: flex; flex-wrap: wrap; gap: 8px 28px; justify-content: space-between; padding-block: 30px; color: var(--foggy); font-size: 13px; }
 .foot strong { color: var(--hof); font-weight: 600; }
+.foot-fb { color: var(--hof); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
 
 /* Floating WhatsApp + dock */
 .fab {
